@@ -1,0 +1,82 @@
+/* About Us Container */
+.custom-aboutus-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blur: 10px;
+    background-image: url('C:/Users/iqbal/hello/hi/src/Assets/Image/aboutpic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  /* Background Image Div */
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+  }
+  
+  /* Content Styles */
+  .content {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  /* Section Styles */
+  .section {
+    margin-bottom: 40px; /* Add spacing between sections */
+  }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Paragraph Styles */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Mission Heading */
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  /* Contact Info Styles */
+  .p3 {
+    margin-top: 30px;
+  }
+  
+  /* Contact Email and Phone Number */
+  .p3 p:first-child {
+    font-weight: bold;
+  }
+  
+  /* Links (change the color and styling to your preference) */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
