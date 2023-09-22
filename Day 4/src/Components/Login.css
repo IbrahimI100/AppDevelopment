@@ -1,0 +1,68 @@
+  
+.login-container1 {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image:url(C:/Users/iqbal/hello/hi/src/Assets/Image/12.jpg);
+    background-size: cover;
+    flex-direction: column;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-container-login {
+   
+    width: 200px;
+    height: 200px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.8;
+    border-radius: 9px;
+
+    background: #b4aba7;
+
+    background-size: cover;
+  }
+
+  
+  input {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .but {
+    border: none;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #7439db;
+    font-size: 1rem;
+  }
+  
+  .signup-link {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .signup-link a {
+    color:rgb(244, 230, 230);
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
