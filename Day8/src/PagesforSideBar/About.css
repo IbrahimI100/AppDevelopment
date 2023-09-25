@@ -1,0 +1,79 @@
+.about-page {
+  font-family: Arial, sans-serif;
+  background-color: rgb(107, 96, 96);
+}
+
+.header-image img {
+  width: 100%;
+}
+
+.about-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+  font-size: 32px;
+  color: #333;
+}
+
+.about-subtitle {
+  font-size: 24px;
+  color: #333;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.about-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-link:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles for the header image */
+.header-image {
+  margin-top: 20px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.header-image img {
+  width: 100%; /* Make sure the image takes the full width of its container */
+  max-height: 400px; /* Adjust the maximum height as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+/* You can further customize the styles based on your preferences */
+
+@media (max-width: 768px) {
+  
+  .about-title {
+    font-size: 24px; 
+  }
+
+  .about-subtitle {
+    font-size: 20px; 
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+
+
+  .header-image img {
+    max-height: 300px; 
+  }
+
+  
+}

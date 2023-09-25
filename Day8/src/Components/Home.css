@@ -1,0 +1,73 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+.main-content {
+  display: flex;
+  flex: 1; /* Fill the available space */
+}
+
+.content {
+   /* Enable vertical scrolling if content overflows */
+  background-image: url('C:/Users/iqbal/hello/hi/src/Assets/Image/homepicup.png');
+  background-size: cover;
+  margin-top: 48px;
+ 
+  width:100vw;
+}
+/* Home.css */
+
+/* Your existing styles for the body, .home, .main-content, .content, etc. here */
+
+/* Add a media query for screens smaller than 768px (adjust breakpoint as needed) */
+/* Home.css */
+
+/* Your existing styles for the body, .home, .main-content, .content, etc. here */
+
+/* Add a media query for screens smaller than 768px (adjust breakpoint as needed) */
+@media (max-width: 768px) {
+  /* Reduce font size for body text or other elements as needed */
+  body {
+    font-size: 14px; /* Adjust font size as needed */
+  }
+
+  /* Adjust background size to cover the entire viewport width and height */
+  .content {
+    background-size: 100% 100%; /* Cover the entire viewport width and height */
+    background-repeat: no-repeat;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+
+  /* You can add more adjustments as needed for other elements */
+}
+
+/* Add media queries for responsiveness as needed */
+/* Home.css */
+
+/* Your existing styles for the body, .home, .main-content, .content, etc. here */
+
+/* Add a media query for screens smaller than 768px (adjust breakpoint as needed) */
+@media (max-width: 912px) {
+  /* Reduce font size for body text or other elements as needed */
+  body {
+    font-size: 14px; /* Adjust font size as needed */
+  }
+
+  /* Adjust background size to cover the entire viewport width and height */
+  .content {
+    background-size: 100% 100%; /* Cover the entire viewport width and height */
+    background-repeat: no-repeat;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+
+  /* You can add more adjustments as needed for other elements */
+}
