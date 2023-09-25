@@ -1,0 +1,123 @@
+/* SignUp.css */
+
+/* Global styles */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
+.signup-container {
+  display: flex;
+  height: 100vh;
+}
+
+.signup-image-container {
+  background-color: #eaf7ed;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  margin: 20px;
+}
+
+.signup-content-container {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-content {
+  margin: 20px;
+}
+
+/* Header styles */
+.content-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: black;
+}
+
+/* Form styles */
+.text-secondary {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
+
+.authList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputbox {
+  margin-top: 16px;
+}
+
+input {
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  width: 100%;
+}
+
+.get-started-button {
+  background-color: #2bb24c;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1rem;
+  margin-top: 40px;
+  padding: 12px 17px 10px;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.get-started-button:hover {
+  background-color: #249440;
+}
+
+/* Create account text styles */
+.create-account-text {
+  color: black;
+}
+
+/* Log in link styles */
+.log-in-link {
+  color: #2bb24c;
+  text-decoration: none;
+}
+
+.log-in-link:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles for terms links */
+.terms {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.54);
+  margin-top: 20px;
+}
+
+.terms a {
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.terms a:hover {
+  color: #0056b3;
+}
