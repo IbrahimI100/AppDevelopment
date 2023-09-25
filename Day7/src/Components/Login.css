@@ -1,0 +1,150 @@
+/* Login.css */
+
+/* Global styles */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
+.login-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden; /* Add this line to prevent scrolling */
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image.login-image {
+  max-width: 100%;
+  height: auto;
+  padding: 20px; /* Add padding for spacing on smaller screens */
+}
+
+.content-container {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Add padding for spacing on smaller screens */
+}
+
+.content2 {
+  max-width: 400px; /* Limit the width of the content on smaller screens */
+  width: 100%;
+}
+
+/* Header styles */
+.content-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: black;
+}
+
+/* Form styles */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input {
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  background-color: #2bb24c;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1rem;
+  padding: 12px 17px 10px;
+  text-transform: uppercase;
+}
+
+.login-button:hover {
+  background-color: #249440;
+}
+
+/* Create account text styles */
+.create-account-text {
+  color: black;
+}
+
+/* Sign Up link styles */
+.sign-up-link {
+  color: #2bb24c;
+  text-decoration: none;
+}
+
+.sign-up-link:hover {
+  text-decoration: underline;
+}
+
+/* Feedly logo styles */
+.image.feedly-logo {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+/* Add this media query for smaller screens */
+/* Add this media query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust the input size */
+  input {
+    font-size: 14px; /* Decrease font size for smaller screens */
+    padding: 6px; /* Decrease padding for smaller screens */
+    margin-bottom: 10px; /* Decrease margin for smaller screens */
+  }
+
+  /* Adjust the background image size */
+  .image.login-image {
+    max-width: 80%; /* Decrease image width for smaller screens */
+  }
+
+  /* Adjust other styles as needed */
+  .content-header {
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+
+  .login-button {
+    font-size: 10px; /* Decrease font size for smaller screens */
+    padding: 8px 12px 6px; /* Decrease padding for smaller screens */
+  }
+
+  /* You can continue to adjust other styles as needed */
+
+  /* Adjust container styles */
+  .image-container {
+    flex: 1; /* Reset flex property to occupy full height */
+    display: flex; /* Add this to center content vertically and horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding: 20px; /* Add padding for spacing on smaller screens */
+  }
+
+  .content-container {
+    flex: 1; /* Reset flex property to occupy full height */
+    display: flex; /* Add this to center content vertically and horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding: 20px; /* Add padding for spacing on smaller screens */
+  }
+}
