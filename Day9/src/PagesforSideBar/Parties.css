@@ -1,0 +1,60 @@
+/* Apply styling using class names */
+
+.parties-container {
+  display: flex;
+  flex-direction: column; /* Display teams in a vertical column */
+  align-items: center; /* Center align teams horizontally */
+   /* Adjust as needed */
+  padding-top: 50px; /* Add top padding to create space between header and teams */
+  background-color: #535050; /* Background color for the container */
+}
+
+.team {
+  align-items: center;
+  margin-bottom: 20px; /* Adjust as needed */
+  background-color: #ead7d7; /* Background color for each team */
+  padding: 20px; /* Add padding to each team */
+  border-radius: 5px; /* Rounded corners for each team */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Shadow effect for each team */
+  display: flex;
+  max-width: 800px; /* Limit the width of the teams */
+}
+
+.team-logo {
+  width: 200px; /* Adjust the size of the logos as needed */
+  height: 150px; /* Adjust the size of the logos as needed */
+  margin-right: 20px; /* Spacing between logo and team info */
+  border: 1px solid #ccc; /* Optional: Add a border to the logos */
+}
+
+.team-info {
+  flex: 1;
+}
+
+.team-name {
+  font-size: 24px; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+  color: #333;
+}
+
+.team-description {
+  font-size: 16px; /* Adjust as needed */
+  line-height: 1.5;
+  color: #666;
+}
+.team:hover {
+  background-color: #ffffff; /* Change the background color on hover */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* You can further customize the colors, fonts, and other styles to your preference */
+.header-image5 {
+  margin-top: 10px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.header-image5 img {
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  height: 300px; /* Maintain the image's aspect ratio */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
