@@ -1,0 +1,26 @@
+server:
+  port: 8999
+
+eureka:
+  instance:
+    hostname: localhost
+
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/user/**
+        - id: contact_service
+          uri: lb://contact_service
+          predicates:
+            - Path=/contact/**
+        - id: PERFECTGARDEN
+          uri: lb://PERFECTGARDEN
+          predicates:
+            - Path=/garden/**
